@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Metas–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Kyle Hardy | Web Designer &amp; Front-End Developer</title>
+  <meta name="description" content="Portfolio for Long Island based web designer and front-end developer Kyle Hardy.">
+  <meta name="author" content="Kyle Hardy">
+  <!-- Mobile Specific Metas –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- FONT –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,700|Prata' rel='stylesheet' type='text/css'>
+  <!-- CSS –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Favicon –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+<!-- Primary Page Layout –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<section class="split">
+  <!-- Left Side – About Me ––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="left-half">
+    <article>
+      <p><i class="fa fa-comment-o"></i> I'm a web designer &amp; front-end developer living and working on the east end of Long Island. I create &amp; maintain websites big &amp; small to suit any need. If you'd like to get in touch about a project <a id="demo01" href="#animatedModal">click here</a>, or email me at <a target="_blank" href="mailto:hardykyle@me.com">hardykyle@me.com</a>. Don't worry, a full site is on the way!</p>
+    </article>
+  </div>
+  <!-- Right Side – Title and Image ––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="right-half">
+    <article>
+      <h1>Kyle Hardy</h1>
+      <strong><p>Web Designer &amp; Front-End Developer</p></strong>
+    </article>
+  </div>
+</section>
+  <!-- Modal Contact  Form --------------------------------------------------------- -->
+  <div id="animatedModal">
+    <div class="close-animatedModal"><i class="fa fa-times hvr-icon-spin"></i></div>    
+    <div class="modal-content">
+      <div class="container">
+        <form>
+          <div class="row">
+            <div class="six columns">
+              <label for="name">Your Name</label>
+              <input class="u-full-width" placeholder="Joe Doe" id="name" type="text">
+            </div>
+            <div class="six columns">
+              <label for="mail">Your E-Mail</label>
+              <input class="u-full-width" placeholder="name@mail.com" id="mail" type="email">
+            </div>
+          </div>
+            <label for="exampleMessage">Your Message</label>
+            <textarea class="u-full-width" placeholder="What's on your mind?" id="message"></textarea>
+            <section>
+              <label class="example-send-yourself-copy">
+                <input type="checkbox">
+                <span class="label-body">Send a copy to yourself</span>
+              </label>
+              <input class="button-primary hvr-wobble-bottom" value="Submit" type="submit">
+            </section>
+          </form>
+        </div>
+      </div>
+    </div>
+<!-- Scripts ------------------------------- -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/animatedModal.min.js"></script>
+  <script>
+    $("#demo01").animatedModal({color:"#2B3A67"});
+  </script>
+</body>
+</html>
